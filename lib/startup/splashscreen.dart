@@ -3,6 +3,9 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 // import 'package:flutter_application_1st/screens/auth/loginpage.dart';
 // import 'package:flutter_application_1st/screens/pages/homepage.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+// import 'package:flutter_eva_icons/flutter_eva_icons.dart';
+import 'package:line_awesome_flutter/line_awesome_flutter.dart';
 
 // import '../../constant/colour.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -31,7 +34,7 @@ class _SplashscreenState extends State<Splashscreen> {
 
   route() {
     Navigator.push(
-        context, MaterialPageRoute(builder: (context) => const HomePage()));
+        context, MaterialPageRoute(builder: (context) =>  HomePage()));
   }
 
   @override
@@ -77,11 +80,8 @@ class _SplashscreenState extends State<Splashscreen> {
           const Center(
             child: Padding(
               padding: EdgeInsets.only(bottom: 200),
-              child: Icon(
-                Icons.task_alt_rounded,
-                size: 90,
-                color: Colors.white60,
-              ),
+              child: Icon(Icons.task_alt_rounded,
+                  size: 90, color: Colors.deepOrange),
             ),
           ),
 

@@ -944,3 +944,161 @@
 2024-10-28T02:21:01.942Z P:15128 T:4448] DataTypeManagerImpl::ConfigurationCompleted,Remain to be configured size: 0
 2024-10-28T02:21:01.944Z P:15128 T:4448] SyncServiceImpl::OnConfigureDone,Configure DataTypeManager with: Ok
 2024-10-28T02:21:01.947Z P:15128 T:8468] SyncEngineBackend::DoStartSyncing,Start syncing
+2024-10-29T15:41:14.341Z P:10376 T:2408] SyncServiceImpl::Initialize,SyncState after authenticated was: FeatureCanStart
+2024-10-29T15:41:16.262Z P:10376 T:2408] SyncServiceImpl::TryStartImpl,Try to start sync engine
+2024-10-29T15:41:16.263Z P:10376 T:5948] SyncManagerImpl::NudgeForInitialDownload,Initial download nudge for Encryption Keys
+2024-10-29T15:41:16.263Z P:10376 T:5948] SyncEngineBackend::LoadAndConnectNigoriController,Load and connect Nigori controller
+2024-10-29T15:41:16.263Z P:10376 T:5948] SyncEngineBackend::DoInitialize,Control Types added: Encryption Keys
+2024-10-29T15:41:16.263Z P:10376 T:5948] SyncManagerImpl::ConfigureSyncer,Types to download: Encryption Keys with reason: 3
+2024-10-29T15:41:16.263Z P:10376 T:5948] SyncSchedulerImpl::DoConfigurationSyncCycleJob,Configure job was blocked
+2024-10-29T15:41:50.359Z P:10376 T:2408] SyncAuthManager::EdgeLogTokenErrorState,Token error with: EDGE_AUTH_ERROR: 3, 13, 800704cf for account type: MSA
+2024-10-29T15:41:50.359Z P:10376 T:2408] SyncServiceImpl::CredentialsChanged,Credentials changed for: EdgeSyncScopeNew
+2024-10-29T15:41:50.359Z P:10376 T:2408] SyncServiceImpl::CredentialsChanged,Empty token for: EdgeSyncScopeNew
+2024-10-29T15:41:50.361Z P:10376 T:2408] SyncServiceImpl::OnConnectionStatusChange,Connection status changed to: 2
+2024-10-29T15:41:50.545Z P:10376 T:2408] SyncAuthManager::EdgeLogTokenErrorState,Token error with: EDGE_AUTH_ERROR: 3, 13, 800704cf for account type: MSA
+2024-10-29T15:41:50.545Z P:10376 T:2408] SyncServiceImpl::CredentialsChangedForKeyData,Credentials changed for: EdgeSyncKeyDataScope
+2024-10-29T15:42:24.253Z P:10376 T:2408] SyncAuthManager::EdgeLogTokenErrorState,Token error with: EDGE_AUTH_ERROR: 3, 13, 800704cf for account type: MSA
+2024-10-29T15:42:24.253Z P:10376 T:2408] SyncServiceImpl::CredentialsChangedForKeyData,Credentials changed for: EdgeSyncKeyDataScope
+2024-10-29T15:42:25.513Z P:10376 T:2408] SyncAuthManager::EdgeLogTokenErrorState,Token error with: EDGE_AUTH_ERROR: 3, 13, 800704cf for account type: MSA
+2024-10-29T15:42:25.513Z P:10376 T:2408] SyncServiceImpl::CredentialsChanged,Credentials changed for: EdgeSyncScopeNew
+2024-10-29T15:42:25.513Z P:10376 T:2408] SyncServiceImpl::CredentialsChanged,Empty token for: EdgeSyncScopeNew
+2024-10-29T15:42:25.516Z P:10376 T:2408] SyncServiceImpl::OnConnectionStatusChange,Connection status changed to: 2
+2024-10-29T15:43:00.265Z P:10376 T:2408] SyncAuthManager::EdgeLogTokenErrorState,Token error with: EDGE_AUTH_ERROR: 3, 13, 800704cf for account type: MSA
+2024-10-29T15:43:00.265Z P:10376 T:2408] SyncServiceImpl::CredentialsChangedForKeyData,Credentials changed for: EdgeSyncKeyDataScope
+2024-10-29T15:43:01.693Z P:10376 T:2408] SyncAuthManager::EdgeLogTokenErrorState,Token error with: EDGE_AUTH_ERROR: 3, 13, 800704cf for account type: MSA
+2024-10-29T15:43:01.693Z P:10376 T:2408] SyncServiceImpl::CredentialsChanged,Credentials changed for: EdgeSyncScopeNew
+2024-10-29T15:43:01.693Z P:10376 T:2408] SyncServiceImpl::CredentialsChanged,Empty token for: EdgeSyncScopeNew
+2024-10-29T15:43:01.695Z P:10376 T:2408] SyncServiceImpl::OnConnectionStatusChange,Connection status changed to: 2
+2024-10-29T15:43:38.254Z P:10376 T:2408] SyncAuthManager::EdgeLogTokenErrorState,Token error with: EDGE_AUTH_ERROR: 3, 13, 800704cf for account type: MSA
+2024-10-29T15:43:38.254Z P:10376 T:2408] SyncServiceImpl::CredentialsChangedForKeyData,Credentials changed for: EdgeSyncKeyDataScope
+2024-10-29T15:43:40.351Z P:10376 T:2408] SyncAuthManager::EdgeLogTokenErrorState,Token error with: EDGE_AUTH_ERROR: 3, 13, 800704cf for account type: MSA
+2024-10-29T15:43:40.351Z P:10376 T:2408] SyncServiceImpl::CredentialsChanged,Credentials changed for: EdgeSyncScopeNew
+2024-10-29T15:43:40.352Z P:10376 T:2408] SyncServiceImpl::CredentialsChanged,Empty token for: EdgeSyncScopeNew
+2024-10-29T15:43:40.353Z P:10376 T:2408] SyncServiceImpl::OnConnectionStatusChange,Connection status changed to: 2
+2024-10-29T15:44:20.564Z P:10376 T:2408] SyncAuthManager::EdgeLogTokenErrorState,Token error with: EDGE_AUTH_ERROR: 3, 13, 800704cf for account type: MSA
+2024-10-29T15:44:20.564Z P:10376 T:2408] SyncServiceImpl::CredentialsChangedForKeyData,Credentials changed for: EdgeSyncKeyDataScope
+2024-10-29T15:44:21.632Z P:10376 T:2408] SyncAuthManager::EdgeLogTokenErrorState,Token error with: EDGE_AUTH_ERROR: 3, 13, 800704cf for account type: MSA
+2024-10-29T15:44:21.632Z P:10376 T:2408] SyncServiceImpl::CredentialsChanged,Credentials changed for: EdgeSyncScopeNew
+2024-10-29T15:44:21.632Z P:10376 T:2408] SyncServiceImpl::CredentialsChanged,Empty token for: EdgeSyncScopeNew
+2024-10-29T15:44:21.633Z P:10376 T:2408] SyncServiceImpl::OnConnectionStatusChange,Connection status changed to: 2
+2024-10-29T15:45:07.529Z P:10376 T:2408] SyncAuthManager::EdgeLogTokenErrorState,Token error with: EDGE_AUTH_ERROR: 3, 13, 800704cf for account type: MSA
+2024-10-29T15:45:07.529Z P:10376 T:2408] SyncServiceImpl::CredentialsChangedForKeyData,Credentials changed for: EdgeSyncKeyDataScope
+2024-10-29T15:45:11.588Z P:10376 T:2408] SyncAuthManager::EdgeLogTokenErrorState,Token error with: EDGE_AUTH_ERROR: 3, 13, 800704cf for account type: MSA
+2024-10-29T15:45:11.588Z P:10376 T:2408] SyncServiceImpl::CredentialsChanged,Credentials changed for: EdgeSyncScopeNew
+2024-10-29T15:45:11.588Z P:10376 T:2408] SyncServiceImpl::CredentialsChanged,Empty token for: EdgeSyncScopeNew
+2024-10-29T15:45:11.589Z P:10376 T:2408] SyncServiceImpl::OnConnectionStatusChange,Connection status changed to: 2
+2024-10-29T15:46:10.356Z P:10376 T:2408] SyncAuthManager::EdgeLogTokenErrorState,Token error with: EDGE_AUTH_ERROR: 3, 13, 800704cf for account type: MSA
+2024-10-29T15:46:10.356Z P:10376 T:2408] SyncServiceImpl::CredentialsChangedForKeyData,Credentials changed for: EdgeSyncKeyDataScope
+2024-10-29T15:46:12.876Z P:10376 T:2408] SyncAuthManager::EdgeLogTokenErrorState,Token error with: EDGE_AUTH_ERROR: 3, 13, 800704cf for account type: MSA
+2024-10-29T15:46:12.876Z P:10376 T:2408] SyncServiceImpl::CredentialsChanged,Credentials changed for: EdgeSyncScopeNew
+2024-10-29T15:46:12.876Z P:10376 T:2408] SyncServiceImpl::CredentialsChanged,Empty token for: EdgeSyncScopeNew
+2024-10-29T15:46:12.878Z P:10376 T:2408] SyncServiceImpl::OnConnectionStatusChange,Connection status changed to: 2
+2024-10-29T15:47:39.127Z P:10376 T:2408] SyncAuthManager::EdgeLogTokenErrorState,Token error with: EDGE_AUTH_ERROR: 3, 13, 800704cf for account type: MSA
+2024-10-29T15:47:39.127Z P:10376 T:2408] SyncServiceImpl::CredentialsChanged,Credentials changed for: EdgeSyncScopeNew
+2024-10-29T15:47:39.127Z P:10376 T:2408] SyncServiceImpl::CredentialsChanged,Empty token for: EdgeSyncScopeNew
+2024-10-29T15:47:39.128Z P:10376 T:2408] SyncServiceImpl::OnConnectionStatusChange,Connection status changed to: 2
+2024-10-29T15:47:42.662Z P:10376 T:2408] SyncAuthManager::EdgeLogTokenErrorState,Token error with: EDGE_AUTH_ERROR: 3, 13, 800704cf for account type: MSA
+2024-10-29T15:47:42.662Z P:10376 T:2408] SyncServiceImpl::CredentialsChangedForKeyData,Credentials changed for: EdgeSyncKeyDataScope
+2024-11-12T17:42:46.871Z P:13468 T:4356] SyncServiceImpl::Initialize,SyncState after authenticated was: FeatureCanStart
+2024-11-12T17:42:50.289Z P:13468 T:4356] SyncServiceImpl::TryStartImpl,Try to start sync engine
+2024-11-12T17:42:50.294Z P:13468 T:3712] SyncManagerImpl::NudgeForInitialDownload,Initial download nudge for Encryption Keys
+2024-11-12T17:42:50.295Z P:13468 T:3712] SyncEngineBackend::LoadAndConnectNigoriController,Load and connect Nigori controller
+2024-11-12T17:42:50.295Z P:13468 T:3712] SyncEngineBackend::DoInitialize,Control Types added: Encryption Keys
+2024-11-12T17:42:50.295Z P:13468 T:3712] SyncManagerImpl::ConfigureSyncer,Types to download: Encryption Keys with reason: 3
+2024-11-12T17:42:50.295Z P:13468 T:3712] SyncSchedulerImpl::DoConfigurationSyncCycleJob,Configure job was blocked
+2024-11-12T17:42:50.807Z P:13468 T:4356] SyncAuthManager::SetLastAuthError,Current auth error: None
+2024-11-12T17:42:50.807Z P:13468 T:4356] SyncAuthManager::EdgeLogTokenErrorState,Token error with: None for account type: MSA
+2024-11-12T17:42:50.807Z P:13468 T:4356] SyncServiceImpl::CredentialsChanged,Credentials changed for: EdgeSyncScopeNew
+2024-11-12T17:42:53.942Z P:13468 T:4356] SyncAuthManager::SetLastAuthError,Current auth error: None
+2024-11-12T17:42:53.942Z P:13468 T:4356] SyncAuthManager::EdgeLogTokenErrorState,Token error with: None for account type: MSA
+2024-11-12T17:42:53.942Z P:13468 T:4356] SyncServiceImpl::CredentialsChangedForKeyData,Credentials changed for: EdgeSyncKeyDataScope
+2024-11-12T17:42:53.942Z P:13468 T:4616] SyncEngineBackend::DoUpdateKeyDataCredentials,Update key data credentials
+2024-11-12T17:42:53.942Z P:13468 T:4616] SyncEngineBackend::DoUpdateCredentials,Update credentials
+2024-11-12T17:42:53.942Z P:13468 T:4616] SyncSchedulerImpl::DoConfigurationSyncCycleJob,Blocked types:  and types to download: Encryption Keys
+2024-11-12T17:42:55.063Z P:13468 T:4356] SyncServiceImpl::OnEngineInitialized,Initialize engine with: Success
+2024-11-12T17:42:55.063Z P:13468 T:4356] SyncServiceImpl::ConfigureDataTypeManager,Configure DataTypeManager with reason: 4
+2024-11-12T17:42:55.063Z P:13468 T:4356] DataTypeManagerImpl::ConfigureImpl,Configuring types: Bookmarks, Preferences, Passwords, Autofill Profiles, Autofill, Typed URLs, Extensions, Sessions, Extension settings, History Delete Directives, Device Info, User Consents, Send Tab To Self, Web Apps, Collection, Edge E Drop, Edge Hub App Usage, Edge Tab Group, Edge Wallet, Encryption Keys with reason: 4 and current state: 0
+2024-11-12T17:42:55.068Z P:13468 T:4356] ModelLoadManager::Configure,Desired types without errors: Bookmarks, Preferences, Typed URLs, Extensions, Sessions, Extension settings, History Delete Directives, Device Info, User Consents, Send Tab To Self, Web Apps, Collection, Edge E Drop, Edge Hub App Usage, Edge Tab Group, Edge Wallet, Encryption Keys and types with errors: Passwords, Autofill Profiles, Autofill
+2024-11-12T17:42:55.068Z P:13468 T:4356] ModelLoadManager::LoadDesiredTypes,Loading type: Bookmarks
+2024-11-12T17:42:55.068Z P:13468 T:4356] ModelLoadManager::LoadDesiredTypes,Loading type: Preferences
+2024-11-12T17:42:55.068Z P:13468 T:4356] ModelLoadManager::LoadDesiredTypes,Loading type: Typed URLs
+2024-11-12T17:42:55.068Z P:13468 T:4356] ModelLoadManager::LoadDesiredTypes,Loading type: Extensions
+2024-11-12T17:42:55.068Z P:13468 T:4356] ModelLoadManager::LoadDesiredTypes,Loading type: Sessions
+2024-11-12T17:42:55.068Z P:13468 T:4356] ModelLoadManager::LoadDesiredTypes,Loading type: Extension settings
+2024-11-12T17:42:55.068Z P:13468 T:4356] ModelLoadManager::LoadDesiredTypes,Loading type: History Delete Directives
+2024-11-12T17:42:55.069Z P:13468 T:4356] ModelLoadManager::LoadDesiredTypes,Loading type: Device Info
+2024-11-12T17:42:55.069Z P:13468 T:4356] ModelLoadManager::LoadDesiredTypes,Loading type: User Consents
+2024-11-12T17:42:55.069Z P:13468 T:4356] ModelLoadManager::LoadDesiredTypes,Loading type: Send Tab To Self
+2024-11-12T17:42:55.069Z P:13468 T:4356] ModelLoadManager::LoadDesiredTypes,Loading type: Web Apps
+2024-11-12T17:42:55.069Z P:13468 T:4356] ModelLoadManager::LoadDesiredTypes,Loading type: Collection
+2024-11-12T17:42:55.069Z P:13468 T:4356] ModelLoadManager::LoadDesiredTypes,Loading type: Edge E Drop
+2024-11-12T17:42:55.069Z P:13468 T:4356] ModelLoadManager::LoadDesiredTypes,Loading type: Edge Hub App Usage
+2024-11-12T17:42:55.069Z P:13468 T:4356] ModelLoadManager::LoadDesiredTypes,Loading type: Edge Tab Group
+2024-11-12T17:42:55.069Z P:13468 T:4356] ModelLoadManager::LoadDesiredTypes,Loading type: Edge Wallet
+2024-11-12T17:42:55.073Z P:13468 T:4356] ModelLoadManager::ModelLoadCallback,Load Preferences: failed with ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, Preferences datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.073Z P:13468 T:4356] DataTypeManagerImpl::OnSingleDataTypeWillStop,Stop type: Preferences with error: ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, Preferences datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.073Z P:13468 T:4356] ModelLoadManager::ModelLoadCallback,Load Extensions: failed with ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, Extensions datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.073Z P:13468 T:4356] DataTypeManagerImpl::OnSingleDataTypeWillStop,Stop type: Extensions with error: ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, Extensions datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.074Z P:13468 T:4356] ModelLoadManager::ModelLoadCallback,Load Extension settings: failed with ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, Extension settings datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.074Z P:13468 T:4356] DataTypeManagerImpl::OnSingleDataTypeWillStop,Stop type: Extension settings with error: ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, Extension settings datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.074Z P:13468 T:4356] ModelLoadManager::ModelLoadCallback,Load History Delete Directives: failed with ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, History Delete Directives datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.074Z P:13468 T:4356] DataTypeManagerImpl::OnSingleDataTypeWillStop,Stop type: History Delete Directives with error: ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, History Delete Directives datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.074Z P:13468 T:4356] ModelLoadManager::ModelLoadCallback,Load Device Info: failed with ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, Device Info datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.074Z P:13468 T:4356] DataTypeManagerImpl::OnSingleDataTypeWillStop,Stop type: Device Info with error: ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, Device Info datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.074Z P:13468 T:4356] ModelLoadManager::ModelLoadCallback,Load User Consents: failed with ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, User Consents datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.074Z P:13468 T:4356] DataTypeManagerImpl::OnSingleDataTypeWillStop,Stop type: User Consents with error: ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, User Consents datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.074Z P:13468 T:4356] ModelLoadManager::ModelLoadCallback,Load Send Tab To Self: failed with ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, Send Tab To Self datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.074Z P:13468 T:4356] DataTypeManagerImpl::OnSingleDataTypeWillStop,Stop type: Send Tab To Self with error: ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, Send Tab To Self datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.075Z P:13468 T:4356] ModelLoadManager::ModelLoadCallback,Load Web Apps: failed with ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, Web Apps datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.075Z P:13468 T:4356] DataTypeManagerImpl::OnSingleDataTypeWillStop,Stop type: Web Apps with error: ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, Web Apps datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.075Z P:13468 T:4356] ModelLoadManager::ModelLoadCallback,Load Collection: failed with ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, Collection datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.075Z P:13468 T:4356] DataTypeManagerImpl::OnSingleDataTypeWillStop,Stop type: Collection with error: ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, Collection datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.075Z P:13468 T:4356] ModelLoadManager::ModelLoadCallback,Load Edge E Drop: failed with EDropSyncBridge@components\edge_e_drop\core\browser\sync\e_drop_sync_bridge.cc:70, Edge E Drop datatype error was encountered: DataTypeStore for Drop initialization failed
+2024-11-12T17:42:55.075Z P:13468 T:4356] DataTypeManagerImpl::OnSingleDataTypeWillStop,Stop type: Edge E Drop with error: EDropSyncBridge@components\edge_e_drop\core\browser\sync\e_drop_sync_bridge.cc:70, Edge E Drop datatype error was encountered: DataTypeStore for Drop initialization failed
+2024-11-12T17:42:55.075Z P:13468 T:4356] ModelLoadManager::ModelLoadCallback,Load Edge Tab Group: failed with ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, Edge Tab Group datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.075Z P:13468 T:4356] DataTypeManagerImpl::OnSingleDataTypeWillStop,Stop type: Edge Tab Group with error: ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, Edge Tab Group datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.075Z P:13468 T:4356] ModelLoadManager::ModelLoadCallback,Load Edge Hub App Usage: failed with EdgeHubAppUsageSyncBridge@components\edge_hub_apps\sync\edge_hub_app_usage_sync_bridge.cc:54, Edge Hub App Usage datatype error was encountered: ModelTypeStore for Hub App Usage initialization failed
+2024-11-12T17:42:55.075Z P:13468 T:4356] DataTypeManagerImpl::OnSingleDataTypeWillStop,Stop type: Edge Hub App Usage with error: EdgeHubAppUsageSyncBridge@components\edge_hub_apps\sync\edge_hub_app_usage_sync_bridge.cc:54, Edge Hub App Usage datatype error was encountered: ModelTypeStore for Hub App Usage initialization failed
+2024-11-12T17:42:55.075Z P:13468 T:4356] ModelLoadManager::ModelLoadCallback,Load Sessions: failed with ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, Sessions datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.075Z P:13468 T:4356] DataTypeManagerImpl::OnSingleDataTypeWillStop,Stop type: Sessions with error: ConstructDataTypeStoreOnFrontendSequence@components\sync\model\data_type_store_service_impl.cc:105, Sessions datatype error was encountered: DataTypeStore backend initialization failed
+2024-11-12T17:42:55.075Z P:13468 T:4356] DataTypeManagerImpl::ConfigureImpl,Configuring types: Bookmarks, Preferences, Passwords, Autofill Profiles, Autofill, Typed URLs, Extensions, Sessions, Extension settings, History Delete Directives, Device Info, User Consents, Send Tab To Self, Web Apps, Collection, Edge E Drop, Edge Hub App Usage, Edge Tab Group, Edge Wallet, Encryption Keys with reason: 6 and current state: 2
+2024-11-12T17:42:55.076Z P:13468 T:4356] ModelLoadManager::Configure,Desired types without errors: Bookmarks, Typed URLs, Edge Wallet, Encryption Keys and types with errors: Preferences, Passwords, Autofill Profiles, Autofill, Extensions, Sessions, Extension settings, History Delete Directives, Device Info, User Consents, Send Tab To Self, Web Apps, Collection, Edge E Drop, Edge Hub App Usage, Edge Tab Group
+2024-11-12T17:42:55.076Z P:13468 T:4356] DataTypeManagerImpl::OnAllDataTypesReadyForConfigure,Start to configure data types
+2024-11-12T17:42:55.076Z P:13468 T:4356] DataTypeManagerImpl::StartNextConfiguration,Remain to be configured size: 3 and next configuring types are: Encryption Keys
+2024-11-12T17:42:55.076Z P:13468 T:4356] DataTypeManagerImpl::PrepareConfigureParams,Prepare to be configured types:  with disabled types: Preferences, Passwords, Autofill Profiles, Autofill, Autofill Wallet, Autofill Wallet Metadata, Autofill Wallet Offer, Autofill Custom Data, Edge Autofill Form Field Data, Edge Autofill Form Field Ss Data, Themes, Extensions, Search Engines, Sessions, Apps, App settings, Extension settings, History Delete Directives, Dictionary, Device Info, Priority Preferences, Managed User Settings, App List, Arc Package, Printers, Reading List, User Events, User Consents, Send Tab To Self, Security Events, Wifi Configurations, Web Apps, OS Preferences, OS Priority Preferences, Sharing Message, Workspace Desk, History, Saved Tab Group, Shared Tab Group Data, Collaboration Group, Plus Address, Product Comparison, Cookies, Plus Address Setting, Collection, Collections Metadata, Edge E Drop, Edge Hub App, Edge Hub App Usage, Edge Tab Group
+2024-11-12T17:42:55.978Z P:13468 T:4356] SyncServiceImpl::ConfigureDataTypeManager,Configure DataTypeManager with reason: 5
+2024-11-12T17:42:55.978Z P:13468 T:4356] DataTypeManagerImpl::ConfigureImpl,Configuring types: Bookmarks, Preferences, Passwords, Autofill Profiles, Autofill, Typed URLs, Extensions, Sessions, Extension settings, History Delete Directives, Device Info, User Consents, Send Tab To Self, Web Apps, Collection, Edge E Drop, Edge Hub App Usage, Edge Tab Group, Edge Wallet, Encryption Keys with reason: 5 and current state: 1
+2024-11-12T17:42:55.980Z P:13468 T:4616] SyncEngineBackend::DoStartConfiguration,Start configuration
+2024-11-12T17:42:55.981Z P:13468 T:4616] SyncManagerImpl::ConfigureSyncer,Types to download:  with reason: 6
+2024-11-12T17:42:55.981Z P:13468 T:4616] SyncEngineBackend::DoFinishConfigureDataTypes,Failed to download types:  and succeeded types: 
+2024-11-12T17:42:55.985Z P:13468 T:4356] DataTypeManagerImpl::ConfigurationCompleted,Need reconfigure with failed types: 
+2024-11-12T17:42:55.985Z P:13468 T:4356] DataTypeManagerImpl::ConfigureImpl,Configuring types: Bookmarks, Preferences, Passwords, Autofill Profiles, Autofill, Typed URLs, Extensions, Sessions, Extension settings, History Delete Directives, Device Info, User Consents, Send Tab To Self, Web Apps, Collection, Edge E Drop, Edge Hub App Usage, Edge Tab Group, Edge Wallet, Encryption Keys with reason: 5 and current state: 2
+2024-11-12T17:42:55.985Z P:13468 T:4356] ModelLoadManager::Configure,Desired types without errors: Bookmarks, Passwords, Autofill Profiles, Autofill, Typed URLs, Edge Wallet, Encryption Keys and types with errors: Preferences, Extensions, Sessions, Extension settings, History Delete Directives, Device Info, User Consents, Send Tab To Self, Web Apps, Collection, Edge E Drop, Edge Hub App Usage, Edge Tab Group
+2024-11-12T17:42:55.985Z P:13468 T:4356] ModelLoadManager::LoadDesiredTypes,Loading type: Passwords
+2024-11-12T17:42:55.985Z P:13468 T:4356] ModelLoadManager::LoadDesiredTypes,Loading type: Autofill Profiles
+2024-11-12T17:42:55.985Z P:13468 T:4356] ModelLoadManager::LoadDesiredTypes,Loading type: Autofill
+2024-11-12T17:42:55.986Z P:13468 T:4356] DataTypeManagerImpl::OnAllDataTypesReadyForConfigure,Start to configure data types
+2024-11-12T17:42:55.986Z P:13468 T:4356] DataTypeManagerImpl::StartNextConfiguration,Remain to be configured size: 4 and next configuring types are: Encryption Keys
+2024-11-12T17:42:55.986Z P:13468 T:4356] DataTypeManagerImpl::PrepareConfigureParams,Prepare to be configured types:  with disabled types: Preferences, Autofill Wallet, Autofill Wallet Metadata, Autofill Wallet Offer, Autofill Custom Data, Edge Autofill Form Field Data, Edge Autofill Form Field Ss Data, Themes, Extensions, Search Engines, Sessions, Apps, App settings, Extension settings, History Delete Directives, Dictionary, Device Info, Priority Preferences, Managed User Settings, App List, Arc Package, Printers, Reading List, User Events, User Consents, Send Tab To Self, Security Events, Wifi Configurations, Web Apps, OS Preferences, OS Priority Preferences, Sharing Message, Workspace Desk, History, Saved Tab Group, Shared Tab Group Data, Collaboration Group, Plus Address, Product Comparison, Cookies, Plus Address Setting, Collection, Collections Metadata, Edge E Drop, Edge Hub App, Edge Hub App Usage, Edge Tab Group
+2024-11-12T17:42:55.986Z P:13468 T:4616] SyncManagerImpl::NudgeForInitialDownload,Initial download nudge for Passwords
+2024-11-12T17:42:55.986Z P:13468 T:4616] SyncManagerImpl::ConfigureSyncer,Types to download:  with reason: 5
+2024-11-12T17:42:55.986Z P:13468 T:4616] SyncEngineBackend::DoFinishConfigureDataTypes,Failed to download types:  and succeeded types: 
+2024-11-12T17:42:55.986Z P:13468 T:4356] DataTypeManagerImpl::ConfigurationCompleted,Remain to be configured size: 3
+2024-11-12T17:42:55.987Z P:13468 T:4356] DataTypeManagerImpl::StartNextConfiguration,Remain to be configured size: 3 and next configuring types are: Passwords
+2024-11-12T17:42:55.987Z P:13468 T:4356] DataTypeManagerImpl::PrepareConfigureParams,Prepare to be configured types: Passwords, Encryption Keys with disabled types: Preferences, Autofill Wallet, Autofill Wallet Metadata, Autofill Wallet Offer, Autofill Custom Data, Edge Autofill Form Field Data, Edge Autofill Form Field Ss Data, Themes, Extensions, Search Engines, Sessions, Apps, App settings, Extension settings, History Delete Directives, Dictionary, Device Info, Priority Preferences, Managed User Settings, App List, Arc Package, Printers, Reading List, User Events, User Consents, Send Tab To Self, Security Events, Wifi Configurations, Web Apps, OS Preferences, OS Priority Preferences, Sharing Message, Workspace Desk, History, Saved Tab Group, Shared Tab Group Data, Collaboration Group, Plus Address, Product Comparison, Cookies, Plus Address Setting, Collection, Collections Metadata, Edge E Drop, Edge Hub App, Edge Hub App Usage, Edge Tab Group
+2024-11-12T17:42:55.987Z P:13468 T:4616] SyncManagerImpl::ConfigureSyncer,Types to download: Passwords, Encryption Keys with reason: 5
+2024-11-12T17:42:55.987Z P:13468 T:4616] SyncSchedulerImpl::DoConfigurationSyncCycleJob,Blocked types:  and types to download: Passwords, Encryption Keys
+2024-11-12T17:42:56.910Z P:13468 T:4616] SyncEngineBackend::DoFinishConfigureDataTypes,Failed to download types:  and succeeded types: Passwords, Encryption Keys
+2024-11-12T17:42:56.914Z P:13468 T:4356] DataTypeManagerImpl::ConfigurationCompleted,Remain to be configured size: 2
+2024-11-12T17:42:56.914Z P:13468 T:4356] DataTypeManagerImpl::StartNextConfiguration,Remain to be configured size: 2 and next configuring types are: Bookmarks
+2024-11-12T17:42:56.914Z P:13468 T:4356] DataTypeManagerImpl::PrepareConfigureParams,Prepare to be configured types:  with disabled types: Preferences, Autofill Wallet, Autofill Wallet Metadata, Autofill Wallet Offer, Autofill Custom Data, Edge Autofill Form Field Data, Edge Autofill Form Field Ss Data, Themes, Extensions, Search Engines, Sessions, Apps, App settings, Extension settings, History Delete Directives, Dictionary, Device Info, Priority Preferences, Managed User Settings, App List, Arc Package, Printers, Reading List, User Events, User Consents, Send Tab To Self, Security Events, Wifi Configurations, Web Apps, OS Preferences, OS Priority Preferences, Sharing Message, Workspace Desk, History, Saved Tab Group, Shared Tab Group Data, Collaboration Group, Plus Address, Product Comparison, Cookies, Plus Address Setting, Collection, Collections Metadata, Edge E Drop, Edge Hub App, Edge Hub App Usage, Edge Tab Group
+2024-11-12T17:42:56.914Z P:13468 T:4616] SyncManagerImpl::ConfigureSyncer,Types to download:  with reason: 5
+2024-11-12T17:42:56.915Z P:13468 T:4616] SyncEngineBackend::DoFinishConfigureDataTypes,Failed to download types:  and succeeded types: 
+2024-11-12T17:42:56.915Z P:13468 T:4356] DataTypeManagerImpl::ConfigurationCompleted,Remain to be configured size: 1
+2024-11-12T17:42:56.918Z P:13468 T:4356] DataTypeManagerImpl::StartNextConfiguration,Remain to be configured size: 1 and next configuring types are: Autofill Profiles, Autofill, Typed URLs, Edge Wallet
+2024-11-12T17:42:56.918Z P:13468 T:4356] DataTypeManagerImpl::PrepareConfigureParams,Prepare to be configured types:  with disabled types: Preferences, Autofill Wallet, Autofill Wallet Metadata, Autofill Wallet Offer, Autofill Custom Data, Edge Autofill Form Field Data, Edge Autofill Form Field Ss Data, Themes, Extensions, Search Engines, Sessions, Apps, App settings, Extension settings, History Delete Directives, Dictionary, Device Info, Priority Preferences, Managed User Settings, App List, Arc Package, Printers, Reading List, User Events, User Consents, Send Tab To Self, Security Events, Wifi Configurations, Web Apps, OS Preferences, OS Priority Preferences, Sharing Message, Workspace Desk, History, Saved Tab Group, Shared Tab Group Data, Collaboration Group, Plus Address, Product Comparison, Cookies, Plus Address Setting, Collection, Collections Metadata, Edge E Drop, Edge Hub App, Edge Hub App Usage, Edge Tab Group
+2024-11-12T17:42:56.918Z P:13468 T:4616] SyncManagerImpl::ConfigureSyncer,Types to download:  with reason: 5
+2024-11-12T17:42:56.918Z P:13468 T:4616] SyncEngineBackend::DoFinishConfigureDataTypes,Failed to download types:  and succeeded types: 
+2024-11-12T17:42:56.919Z P:13468 T:4356] DataTypeManagerImpl::ConfigurationCompleted,Remain to be configured size: 0
+2024-11-12T17:42:56.921Z P:13468 T:4356] SyncServiceImpl::OnConfigureDone,Configure DataTypeManager with: Ok
+2024-11-12T17:42:56.928Z P:13468 T:5276] SyncEngineBackend::DoStartSyncing,Start syncing

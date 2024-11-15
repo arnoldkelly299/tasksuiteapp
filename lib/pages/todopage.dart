@@ -1,4 +1,5 @@
 import 'dart:math';
+import 'package:tasksuite/tools/screenhelper.dart';
 
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
@@ -86,19 +87,27 @@ class _TodopageState extends State<Todopage> {
 
   @override
   Widget build(BuildContext context) {
+    // double screenWidth = MediaQuery.of(context).size.width;
+    // double screenHeight = MediaQuery.of(context).size.height;
+    ScreenHelper.init(context);
+
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
         backgroundColor: Colors.black,
-        title: const Padding(
-          padding: EdgeInsets.only(top: 35.0, right: 20),
+        title: Padding(
+          padding: EdgeInsets.only(
+            top: ScreenHelper.h(0.04),
+            right: ScreenHelper.w(0.1),
+          ),
           child: Text(
             'TO-DO',
             style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.white60,
-                fontSize: 25,
-                wordSpacing: 10),
+              fontWeight: FontWeight.bold,
+              color: Colors.white60,
+              // fontSize: ScreenHelper.w(0.6), // Responsive font size
+              wordSpacing: 10,
+            ),
           ),
         ),
         centerTitle: true,
@@ -119,7 +128,7 @@ class _TodopageState extends State<Todopage> {
       ),
       backgroundColor: const Color.fromARGB(255, 15, 15, 15),
       body: Container(
-        height: 750,
+        height: ScreenHelper.h(0.8),
         decoration: BoxDecoration(
           color: Colors.black, // Set background color to black
           borderRadius: const BorderRadius.only(
@@ -143,11 +152,17 @@ class _TodopageState extends State<Todopage> {
             Padding(
               // Opening bracket for Padding
 
-              padding: const EdgeInsets.all(20.0),
+              padding: EdgeInsets.symmetric(
+                horizontal: ScreenHelper.w(
+                    0.15), // 20% of screen width for left/right padding
+                vertical:
+                    ScreenHelper.h(0.02), // 2% of screen height for top padding
+              ),
               child: Row(
                 // Opening bracket for Row
                 children: [
-                  Expanded(
+                  SizedBox(
+                    width: MediaQuery.of(context).size.width * 0.6,
                     // Opening bracket for Expanded
                     child: TextField(
                       // Opening bracket for TextField

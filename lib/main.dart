@@ -16,8 +16,13 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
+  
   Widget build(BuildContext context) {
+    double screenWidth = MediaQuery.of(context).size.width;
+double screenHeight = MediaQuery.of(context).size.height;
+
     return MaterialApp(
+      
       title: 'TASKSUITE-APP',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
